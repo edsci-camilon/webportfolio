@@ -1,0 +1,69 @@
+* 
+
+
+.hero {
+	background-image: url('./images/07.png');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 2;
+}
+
+.hero::after {
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: black;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+.hero {
+    margin-right: 0;
+}
+
+body{
+	min-height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+	margin-right: 0;
+	
+}
+
+.navbar .nav-link {
+	font-size: 15px;
+	font-weight: 600;
+}
+
+.view {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.view {
+    margin-right: 0;
+}
+.view {
+	background-image: url('./images/08.png');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.aboutUs {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.tools {
+	background-color: black;
+}
+
+.contactUs {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
